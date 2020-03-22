@@ -6,6 +6,14 @@
 - good evening
 - hey there
 
+## intent:good
+- i m good.
+- good. thanks for asking
+- Good.
+- Gud
+- guds
+- gooood
+
 ## intent:goodbye
 - bye
 - goodbye
