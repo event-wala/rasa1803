@@ -1,142 +1,31 @@
-## path 2
+## happy path
 * greet
   - utter_greet
-* question{"document":"Big Data"}
-  - slot{"document":"Big Data"}
+* mood_great
+  - utter_happy
 
-## path 3
-* question{"document":"Big Data"}
-  - slot{"document":"Big Data"}
-  - action_question
-
-
-  ## New Story
-
+## sad path 1
 * greet
-    - utter_greet
-* question{"document":"Big data Class"}
-    - slot{"document":"Big data Class"}
-    - action_question
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* affirm
+  - utter_happy
 
-## New Story
-
+## sad path 2
 * greet
-    - utter_greet
-* question{"document":"getting started"}
-    - slot{"document":"getting started"}
-    - action_question
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* deny
+  - utter_goodbye
 
-## New Story
+## say goodbye
+* goodbye
+  - utter_goodbye
 
-* greet
-    - utter_greet
-* question{"document":"getting started"}
-    - slot{"document":"getting started"}
-    - action_question
-
-## New Story
-
-* greet
-    - utter_greet
-* question{"document":"kafka"}
-    - slot{"document":"kafka"}
-    - action_question
-* question{"document":"hive"}
-    - slot{"document":"hive"}
-    - slot{"document":"kafka"}
-    - action_question
-* question{"document":"data science"}
-    - slot{"document":"data science"}
-    - slot{"document":"hive"}
-    - slot{"document":"kafka"}
-    - action_question
-
-## New Story
-
-* greet
-    - utter_greet
-* question{"document":"Data Science"}
-    - slot{"document":"Data science"}
-    - action_question
-* question{"document":"Hive"}
-    - slot{"document":"Hive"}
-    - action_question
-* question{"document":"Glossary"}
-    - slot{"document":"Glossary"}
-    - action_question
-* question{"document":"Kafka"}
-    - slot{"document":"Kafka"}
-    - action_question
-* question{"document":"getting started"}
-    - slot{"document":"getting started"}
-    - action_question
-* question{"document":"Big Data"}
-    - slot{"document":"Big Data"}
-    - action_question
-* question{"document":"Factlab"}
-    - slot{"document":"Factlab"}
-    - action_question
-* question{"document":"Hive"}
-    - slot{"document":"Hive"}
-    - action_question
-* question{"document":"ooz"}
-    - slot{"document":"ooz"}
-    - action_question
-* question{"document":"final"}
-    - slot{"document":"final"}
-    - action_question
-* question{"document":"final"}
-    - slot{"document":"final"}
-    - action_question
-
-## New Story
-
-* greet
-    - utter_greet
-* question{"document":"big data"}
-    - slot{"document":"big data"}
-    - action_question
-* question{"document":"factlabs"}
-    - slot{"document":"factlabs"}
-    - action_question
-* question{"document":"data science"}
-    - slot{"document":"data science"}
-    - action_question
-* question{"document":"Hive"}
-    - slot{"document":"Hive"}
-    - action_question
-
-## New Story
-
-* question{"document":"big data"}
-    - slot{"document":"big data"}
-    - action_question
-
-## New Story
-
-* greet
-    - utter_greet
-* question{"document":"big data"}
-    - slot{"document":"big data"}
-    - action_question
-
-## New Story
-
-* question{"document":"hive optimizations"}
-    - slot{"document":"hive optimizations"}
-    - action_question
-* question{"document":"hive"}
-    - slot{"document":"hive"}
-    - action_question
-* question{"document":"hive optimization"}
-    - slot{"document":"hive optimization"}
-    - action_question
-* question{"document":"Hive Otimization"}
-    - slot{"document":"Hive Otimization"}
-    - action_question
-* question{"document":"Hive Optimization"}
-    - slot{"document":"Hive Optimization"}
-    - action_question
-* question{"document":"Hive Optimization"}
-    - slot{"document":"Hive Optimization"}
-    - action_question
+## bot challenge
+* bot_challenge
+  - utter_iamabot
