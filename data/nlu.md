@@ -6,86 +6,51 @@
 - good evening
 - hey there
 
-## intent:good
-- i m good.
-- good. thanks for asking
-- Good.
-- Gud
-- guds
-- gooood
-
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
 
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
-
-## intent:question
-- i m looking for [Big data Class](docu
-ment) ppt
-- where can i find [Big Data Class](document) ppt
-- send me file link for [getting Started](document)
-- send me file link to [big data](document)
-- send me ppt for [big data](document)
-- [getting started](document)
-- [big data](document)
-- [big data classes](document)
-- tell me location for [getting started](document) document
-- can i know where [getting started](document) is?
-- i want to know [Big Data Class](document) ppt?
-- [factlabs](document)
-- [Factlabs_1211](document)
-- [Factlabs Marketing_Advertising](document)
-- i m looking for [Factlabs Marketing_Advertising](document)
-- where can i find [Factlabs Marketing_Advertising](document)
-- [hadoop](document)
-- i m looking for [hadoop](document)
-- where can i find [hadoop](document)
-- [apache](document)
-- i m looking for [apache](document)
-- where can i find [apache](document)
-- [curriculam](document)
-- i m looking for [curriculam](document)
-- where can i find [curriculam](document)
-- [kafka](document) 
-- i m looking for [kafka](document)
-- where can i find [kafka](document)
-- [interview](document)
-- i m looking for [interview](document)
-- where can i find [interview](document)
-- [Spark](document)
-- i m looking for [Spark](document)
-- where can i find [Spark](document)
-- [Hive](document)
-- i m looking for [Hive](document)
-- where can i find [Hive](document)
-- [HDFS](document)
-- i m looking for [HDFS](document)
-- where can i find [HDFS](document)
-- [Glossary](document)
-- i m looking for [Glossary](document)
-- where can i find [Glossary](document)
-- [Data Science](document)
-- i m looking for [Data Science](document)
-- where can i find [Data Science](document)
-- [ooz](document)
-- i m looking for [ooz](document) 
-- where can i find [ooz](document)
-- [final](document)
-- i m looking for [final](document)
-- where can i find [final](document)
-- [job](document)
-- i m looking for [job](document)
-- where can i find [job](document)
-- [proposal](document)
-- i m looking for [proposal](document)
-- where can i find [proposal](document)
-- [hive optimizations](document)
-- i m looking for [hive optimizations](document)
-- where can i find [hive optimizations](document)
